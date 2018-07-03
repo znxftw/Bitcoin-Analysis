@@ -17,7 +17,7 @@ Upon combining data it was also noted that some datasets did not possess all val
 Variable | Quantity
 -------- | ---------
 Number of Parameters | 32
-Size of final csv | 964014 bytes
+Size of final csv | 817922 bytes
 Dataset start | 2009 - 01 - 03
 Dataset end | 2018 - 07 - 02
 Number of rows | 2723
