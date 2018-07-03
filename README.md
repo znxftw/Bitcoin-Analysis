@@ -33,4 +33,4 @@ On comparison of relative ease of use as well as capability to handle larger set
 As a response to the unbelivably steep climb in Bitcoin prices in 2017, the test set data was selected to be the past five months whereas the remaining was allocated as the test set. This was done to minimize the huge errors that all algorithms faced since it hadn't seen a linear increase as high as 2017 without extra training data.
 
 A rough plot of how the test and training set were divided are shown below :
-![Set Segregation](https://raw.githubusercontent.com/znxftw/Bitcoin-Analysis/master/output-graphs/set-segregation.png "Division of sets")
+![Set Segregation](https://raw.githubusercontent.com/znxftw/Bitcoin-Analysis/master/output-graphs/segregation.png "Division of sets")
