@@ -21,3 +21,13 @@ Size of final csv | 817922 bytes
 Dataset start | 2011 - 01 - 19
 Dataset end | 2018 - 07 - 02
 Number of rows | 2723
+
+## Phase II : Applying a Machine Learning Regression Model
+
+### Phase II (a) Selection of language and libraries based on data
+Summarizing the parameters and available data, choice of programming language was narrowed down to either **Python** (using relevant libraries) or **R** (using inbuilt libraries).
+
+On comparison of relative ease of use as well as capability to handle larger sets of data, R seemed to be a more logical choice for creating an ML model in our case.
+
+### Phase II (b) Missing data
+Upon inspection of our available dataset, it was noted that some of the values in almost all columns possessed zero-values. The relative percentage of such errors was low however ( < 1%  for most columns ) and hence instead of disregarding and deleting rows of such values, it was decided to fill in the missing data using appropriate methods.
