@@ -7,7 +7,7 @@ Of the choices available, blockchain parameters seemed to be the most relevant a
 
 [Quandl](https://www.quandl.com/) offered data to my very needs and hence was the primary choice for a data source.
 
-Collection of data involved scripting ways to download all the various csv files available for download and conmbining them using simple bash scripts applying **paste** and **cut** to format the columns and add appropriate headings.
+Collection of data involved scripting ways to download all the various csv files available for download and combining them using simple bash scripts applying **paste** and **cut** to format the columns and add appropriate headings.
 
 For ease of use, the price of BTC was allocated as the last column in our dataset.
 
