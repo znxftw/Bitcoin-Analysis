@@ -26,16 +26,21 @@ training_set = head(dataset, 2600)
 test_set = tail(dataset,122)
 
 # Plotting test_set vs training_set
-ggplot() +
-  geom_line(aes(x = training_set$Date, y = training_set$MKPRU),
-                colour = 'red',
-                show.legend = TRUE) +
-  geom_line(aes(x = test_set$Date, y = test_set$MKPRU),
-                colour = 'green',
-                show.legend = TRUE) +
+ggplot(guide ='legend') +
+  geom_line(data = training_set,
+            aes(x = Date, 
+                y = MKPRU,
+                colour = "#00FF00")
+            ) +
+  geom_line(data = test_set,
+            aes(x = Date, 
+                y = MKPRU,
+                colour = "#FF0000")
+            ) +
   ggtitle('Set seggregation') +
   xlab('Date') +
-  ylab('Price ($)')
+  ylab('Price ($)') +
+  scale_color_discrete(name = "Legend", labels = c("Training set", "Test set"))
 
 # Random Forest Regression
 rf_regressor = randomForest(x = training_set[2:32],
