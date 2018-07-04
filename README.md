@@ -59,9 +59,6 @@ TRFUS | Total Transaction Fees USD
 TRVOU | USD Exchange Trade Volume
 TVTVR | Trade Volume vs Transaction Volume Ratio
 
-
-
-
 ## Phase II : Applying a Machine Learning Regression Model
 
 ### (a) Selection of language and libraries based on data
@@ -78,6 +75,20 @@ A rough plot of how the test and training set were divided are shown below :
 ### (c) Training the different models
 
 #### (i) Random Forest Regression
+Optimal number of trees was a hard parameter to find owing to the large computation time on a dataset with 2772 rows and 32 columns.
+Instead a few test values were assigned and out of most the default value, 500, was found to be most accurate as well as owing to least overfitting.
+
+Graph comparing Random Forest Predictions and True values :
+
+<img src="https://raw.githubusercontent.com/znxftw/Bitcoin-Analysis/master/output-graphs/rf_graph.png" width="400">
+
 #### (ii) XGBoost
+Owing to the rising popularity among most data scientists in using this model, it was also a choice for one of the models in this analysis.
+
+More details on XGBoost can be found on their repository [here](https://github.com/dmlc/xgboost).
+
+Graph comparing XGBoost Predictions and True Values :
+
+<img src="https://raw.githubusercontent.com/znxftw/Bitcoin-Analysis/master/output-graphs/xg_graph.png" width="400">
 
 ### (d) Analyzing and comparing errors of the different models
