@@ -91,7 +91,7 @@ Graph comparing XGBoost Predictions and True Values :
 
 <img src="https://raw.githubusercontent.com/znxftw/Bitcoin-Analysis/master/output-graphs/xg_graph.png" width="400">
 
-### (d) Analyzing and comparing errors of the different models
+## Phase III : Analyzing and comparing errors of the different models
 
 On comparing the graphs we can observe
 - Random Forest Model overestimated most of the values in the test set. This could be due to slight overfitting from the trees after reading the steep climb in BTC prices.
