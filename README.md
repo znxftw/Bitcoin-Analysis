@@ -102,5 +102,5 @@ Analyzing the errors for the various models :
 
 Model | RMSE | % RMSE | MAE | % MAE
 ----- | ---- | ------ | --- | -----
-Random Forest | 1118.857 | 13.91976 | 934.6273 | 11.62775
-XGBoost | 305.7651 | 3.804042 | 248.2652 | 3.088681
+Random Forest | 1118.85 | 13.92 | 934.62 | 11.63
+XGBoost | 305.76 | 3.80 | 248.26 | 3.089
