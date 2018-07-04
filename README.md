@@ -98,7 +98,6 @@ On comparing the graphs we can observe
 - XGBoost model was able to minimize the error produced but had rough approximation graphs rather than certain values.
 
 Analyzing the errors for the various models :
-(Percentage errors were calculated using the mean of the test data rather than percentage of each reading)
 
 Model | RMSE | % RMSE | MAE | % MAE
 ----- | ---- | ------ | --- | -----
