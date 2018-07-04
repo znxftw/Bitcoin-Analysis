@@ -92,3 +92,15 @@ Graph comparing XGBoost Predictions and True Values :
 <img src="https://raw.githubusercontent.com/znxftw/Bitcoin-Analysis/master/output-graphs/xg_graph.png" width="400">
 
 ### (d) Analyzing and comparing errors of the different models
+
+On comparing the graphs we can observe
+- Random Forest Model overestimated most of the values in the test set. This could be due to slight overfitting from the trees after reading the steep climb in BTC prices.
+- XGBoost model was able to minimize the error produced but had rough approximation graphs rather than certain values.
+
+Analyzing the errors for the various models :
+(Percentage errors were calculated using the mean of the test data rather than percentage of each reading)
+
+Model | RMSE | % RMSE | MAE | % MAE
+----- | ---- | ------ | --- | -----
+Random Forest | 1118.857 | 13.91976 | 934.6273 | 11.62775
+XGBoost | 305.7651 | 3.804042 | 248.2652 | 3.088681
