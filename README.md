@@ -80,4 +80,4 @@ A rough plot of how the test and training set were divided are shown below :
 #### (i) Random Forest Regression
 #### (ii) XGBoost
 
-
+### (d) Analyzing and comparing errors of the different models
