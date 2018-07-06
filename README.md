@@ -76,7 +76,7 @@ A rough plot of how the test and training set were divided are shown below :
 
 #### (i) Random Forest Regression
 Optimal number of trees was a hard parameter to find owing to the large computation time on a dataset with 2772 rows and 32 columns.
-Instead a few test values were assigned and out of most the default value, 500, was found to be most accurate as well as owing to least overfitting.
+Instead a few test values were assigned and out of most the default value, 500, was found to be most accurate as well as resulting in least overfitting.
 
 Graph comparing Random Forest Predictions and True values :
 
