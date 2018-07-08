@@ -106,4 +106,4 @@ XGBoost | 305.76 | 3.80 | 248.26 | 3.09
 
 From the error data above, we can see the XGBoost triumphs all cases and is still the fastest among all the models.
 
-### Phase IV : Optimizing Parameters and Hyperparameters
+## Phase IV : Optimizing Parameters and Hyperparameters
