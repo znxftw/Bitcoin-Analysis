@@ -70,7 +70,7 @@ After installing
 git clone https://github.com/znxftw/Bitcoin-Analysis.git
 ```
 - Open */src/code.R* 
-- Set home directory of the repository as the base directory 
+- Set home directory of the repository as the working directory 
 - Uncomment the following lines
 
 ```R
