@@ -61,10 +61,17 @@ TVTVR | Trade Volume vs Transaction Volume Ratio
 
 ## Phase II : Applying a Machine Learning Model
 
-### 0. Running the Model
+### Running the Model
 If you wish to run the model yourself, download and install [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://www.rstudio.com/products/rstudio/download/).
 
-After installing, open */src/code.R* and uncomment the following lines
+After installing
+- Clone this repository with
+```bash
+git clone https://github.com/znxftw/Bitcoin-Analysis.git
+```
+- Open */src/code.R* 
+- Set home directory of the repository as the base directory 
+- Uncomment the following lines
 
 ```R
 install.packages('randomForest')
@@ -74,6 +81,10 @@ install.packages('xgboost')
 install.packages('anytime')
 install.packages('caret')
 ```
+
+- Execute the above lines with Shift + Enter 
+- Recomment them after they have been installed
+- Run each section one by one afterwards with Shift + Enter
 
 ### (a) Selection of language and libraries based on data
 Summarizing the parameters and available data, choice of programming language was narrowed down to either **Python** (using relevant libraries) or **R** (using inbuilt libraries).
