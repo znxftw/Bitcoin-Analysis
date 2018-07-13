@@ -69,7 +69,7 @@ After installing
 ```bash
 git clone https://github.com/znxftw/Bitcoin-Analysis.git
 ```
-- Open */src/code.R* 
+- Open */src/code.R* in RStudio
 - Set home directory of the repository as the working directory 
 - Uncomment the following lines
 
