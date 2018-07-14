@@ -86,18 +86,13 @@ install.packages('caret')
 - Recomment them after they have been installed
 - Run each section one by one afterwards with Shift + Enter
 
-### (a) Selection of language and libraries based on data
-Summarizing the parameters and available data, choice of programming language was narrowed down to either **Python** (using relevant libraries) or **R** (using inbuilt libraries).
-
-On comparison of relative ease of use as well as capability to handle larger sets of data, R seemed to be a more logical choice for creating an ML model in our case.
-
-### (b) Splitting data into training and test sets
+### (a) Splitting data into training and test sets
 As a response to the unbelivably steep climb in Bitcoin prices in 2017, the test set data was selected to be the past five months whereas the remaining was allocated as the training set. This was done to minimize the huge errors that all algorithms faced since it hadn't seen a linear increase as high as 2017 without extra training data. (since these parameters alone could not predict such a steep hike)
 
 A rough plot of how the test and training set were divided are shown below :
 <img src="https://raw.githubusercontent.com/znxftw/Bitcoin-Analysis/master/output-graphs/segregation.png" width="400">
 
-### (c) Training the different models
+### (b) Training the different models
 
 #### (i) Random Forest Regression
 Optimal number of trees was a hard parameter to find owing to the large computation time on a dataset with 2772 rows and 32 columns.
