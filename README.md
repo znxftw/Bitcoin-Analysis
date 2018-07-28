@@ -82,9 +82,9 @@ install.packages('anytime')
 install.packages('caret')
 ```
 
-- Execute the above lines with Shift + Enter 
+- Execute the above lines with Ctrl + Enter 
 - Recomment them after they have been installed
-- Run each section one by one afterwards with Shift + Enter
+- Run each section one by one afterwards with Ctrl + Enter
 
 ### (a) Splitting data into training and test sets
 As a response to the unbelivably steep climb in Bitcoin prices in 2017, the test set data was selected to be the past five months whereas the remaining was allocated as the training set. This was done to minimize the huge errors that all algorithms faced since it hadn't seen a linear increase as high as 2017 without extra training data. (since these parameters alone could not predict such a steep hike)
